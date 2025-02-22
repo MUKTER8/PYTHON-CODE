@@ -1,0 +1,7 @@
+f=open("41.1)file.txt","r")
+data1=f.readline()
+data2=f.readline()
+print(data1)
+print(data2)
+print(type(data1))
+f.close()   

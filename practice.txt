@@ -1,0 +1,3 @@
+Hi everyone
+Learning read write in Java
+I love Python Language.
