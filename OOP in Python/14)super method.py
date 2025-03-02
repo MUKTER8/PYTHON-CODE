@@ -1,7 +1,7 @@
 # single inheritance
 class Car:
-    color = "black"
-
+    def __init__(self,type):
+        self.type=type
     @staticmethod
     def start():
         print("Car started..")
@@ -12,12 +12,13 @@ class Car:
 
 
 class ToyotaCar(Car):
-    def __init__(self, name):
+    def __init__(self, name,type):
+        super().__init__(type)
         self.name = name
+        super().start()
+        
 
 
-car1 = ToyotaCar("fortunes")
-car2 = ToyotaCar("prius")
-print(car1.color)
-print(car1.name)
-print(car1.start())
+car1 = ToyotaCar("fortunes","electric")
+print(car1.type)
+
