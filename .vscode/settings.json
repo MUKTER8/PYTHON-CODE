@@ -1,6 +1,7 @@
 {
     "cSpell.words": [
-        "chandpur"
+        "chandpur",
+        "popleft"
     ],
     "python.testing.pytestArgs": [
         "."
